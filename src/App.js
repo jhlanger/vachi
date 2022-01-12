@@ -21,6 +21,8 @@ function App() {
         <div className=""> 
         <Header></Header>
         <Navbar></Navbar>
+      
+        
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/bullyingwebsites' component={BullyingWebsites} />

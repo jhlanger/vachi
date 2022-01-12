@@ -1,64 +1,87 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { SidebarData } from './SidebarData';
+import './Navbar.css';
+
+import * as FaIcons from 'react-icons/fa';
+import * as AiIcons from 'react-icons/ai';
+import { IconContext } from 'react-icons';
 
 const Navbar = () => {
+    const [sidebar, setSidebar] = useState(false);
 
-    const navbarData = [
-        {
-            title: "Home",
-            path: "/",
-            cName: 'nav-text'
-        },
-        {
-            title: "Bullying Websites",
-            path: "/bullyingwebsites",
-            cName: 'nav-text'
-        },
-        {
-            title: "PSA's",
-            path: "/psa",
-            cName: 'nav-text'
-        },
-        {
-            title: "News/Newsletter",
-            path: "/news",
-            cName: 'nav-text'
-        },
-        {
-            title: "Forms",
-            path: "/forms",
-            cName: 'nav-text'
-        },
-        {
-            title: "Merchandise",
-            path: "/merchandise",
-            cName: 'nav-text'
-        },
-        {
-            title: "Contact Us",
-            path: "/contact",
-            cName: 'nav-text'
-        }
-    ];
+    const showSidebar = () => setSidebar(!sidebar);
+
     return (
-        <div className = "navBarDiv">
-
-            <div className="navBarList navBarListbg pt-3">
-                <ul className="">
-                    {navbarData.map((item, index) => {
-                        return (
-
-                            <Link to={item.path} className="navBarList">
-                                <li key={index} className={item.cName}>{item.title}</li>
-                            </Link>
 
 
-                        )
-                    })}
-                </ul>
-            </div>
+        <>
+        <IconContext.Provider value={{ color: '#fff' }}>
+  
+          <div className='navbar UsernameText'>
+            <Link to='#' className='menu-bars'>
+              <FaIcons.FaBars onClick={showSidebar} />
+            </Link>
+          </div>
+  
+  
+          <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
+            <ul className='nav-menu-items' onClick={showSidebar}>
+              <li className='navbar-toggle'>
+                <Link to='#' className='menu-bars'>
+                  <AiIcons.AiOutlineClose />
+                </Link>
+              </li>
+  
+              {SidebarData.map((item, index) => {
+                return (
+                  <li key={index} className={item.cName}>
+                    <Link to={item.path}>
+                        {item.icon}
+                      <span>{item.title}</span>
+                    </Link>
+                  </li>
+                );
+              })}
+  
+  
+            </ul>
+          </nav>
+        </IconContext.Provider>
+      </>
 
-        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // <div className = "navBarDiv">
+
+        //     <div className="navBarList navBarListbg pt-3">
+        //         <ul className="">
+        //             {navbarData.map((item, index) => {
+        //                 return (
+
+        //                     <Link to={item.path} className="navBarList">
+        //                         <li key={index} className={item.cName}>{item.title}</li>
+        //                     </Link>
+
+
+        //                 )
+        //             })}
+        //         </ul>
+        //     </div>
+
+        // </div>
     )
 }
 
