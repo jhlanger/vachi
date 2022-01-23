@@ -13,7 +13,7 @@ export  const SidebarData = [
         cName: 'nav-text'
     },
     {
-        title: "PSA's",
+        title: "Resources",
         path: "/psa",
         cName: 'nav-text'
     },

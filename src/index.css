@@ -30,6 +30,16 @@ code {
 .height-adjust-30 {
   padding-bottom: 30px;
 }
+.height-adjust-180 {
+  padding-bottom: 180px;
+}
+
+.height-adjust-375 {
+  padding-bottom: 375px;
+}
+.height-adjust-60 {
+  padding-bottom: 60px;
+}
 
 /* background-color: rgba(27, 58, 77, 1); */
 

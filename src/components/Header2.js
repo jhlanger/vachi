@@ -14,7 +14,7 @@ const Header2 = () => {
 
                         <h1>Hate Hurts </h1>
                         <h2> Think Before You Speak</h2>
-                        <a href = "/tour" type="button" className="btn btn-light mx-3 mt-3">Take the Tour</a>
+                        <a href = "/psa" type="button" className="btn btn-light mx-3 mt-3">Take the Tour</a>
                         <a href = "/chapter" type="button" className="btn btn-light mx-3 mt-3">Start A Chapter</a>
                     </div>
                 </div>
