@@ -13,6 +13,9 @@ import News from "./components/News";
 import Forms from "./components/Forms";
 import Merchandise from "./components/Merchandise";
 import Contact from "./components/Contact";
+import Header2 from './components/Header2';
+import Chapter from './pages/Chapter';
+import Tour from './pages/Tour';
 
 function App() {
   return (
@@ -21,6 +24,7 @@ function App() {
         <div className=""> 
         <Header></Header>
         <Navbar></Navbar>
+        <Header2></Header2>
       
         
         <Switch>
@@ -31,6 +35,8 @@ function App() {
           <Route path='/forms' component={Forms} />
           <Route exact path="/merchandise" component={Merchandise} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/tour" component={Tour} />
+          <Route exact path="/chapter" component={Chapter} />
         </Switch>
         </div>
       </Router>

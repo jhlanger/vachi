@@ -19,6 +19,11 @@ code {
   padding: 45px;
 }
 
+.header2Bg {
+  background-color: rgba(27, 58, 77, 1);
+  padding: 15px;
+}
+
 .headerBg h1 {
   text-align: center;
 }

@@ -4,11 +4,7 @@ const Home = () => {
     return (
         <div className="headerDiv">
             <div className = "container">
-                <div>
-                    <h1>Hate Hurts</h1>
-                    <h2>Think Before You Speak</h2>
-
-                </div>
+               
 
                 <div className="d-flex flex-wrap ">
                     <div className="col-lg-6 col-xs-12">
