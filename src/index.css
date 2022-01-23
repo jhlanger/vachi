@@ -15,18 +15,23 @@ code {
 
 
 .headerBg {
-  background-color: rgba(27, 58, 77, 1);
+  
   padding: 45px;
 }
 
 .header2Bg {
-  background-color: rgba(27, 58, 77, 1);
   padding: 15px;
 }
 
 .headerBg h1 {
   text-align: center;
 }
+
+.height-adjust-30 {
+  padding-bottom: 30px;
+}
+
+/* background-color: rgba(27, 58, 77, 1); */
 
 
 

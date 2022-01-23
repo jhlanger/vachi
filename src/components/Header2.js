@@ -3,7 +3,7 @@ import vachiImg from "../assets/images/vachiImg.PNG"
 
 const Header2 = () => {
     return (
-        <div className="header2Bg text-light">
+        <div className="header2Bg text-light bg-dark">
 
             <div className="container">
                 <div className="d-flex flex-wrap ">
