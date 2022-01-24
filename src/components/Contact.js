@@ -15,7 +15,7 @@ function Contact() {
     if (!errorMessage) {
       console.log('Submit Form', formState);
       setErrorMessage('Message Sent');
-      emailjs.sendForm('service_q1gurj6', 'template_nmtrq4k',e.target, 'user_WKjtfxtfgBID1daYlQ3y3' )
+      emailjs.sendForm('service_3wwy22e', 'template_sho58d6',e.target, 'user_vXcQjUZOJYdGbmHCs2DQz' )
       .then(res => {
         console.log(res);
       }).catch(err=> console.log(err));
@@ -47,7 +47,7 @@ function Contact() {
       <div className = "bg-black height-adjust-60">
     <section className = "container text-light pt-3">
       <h1 className = "font-weight-light" data-testid="h1tag ">Contact Us</h1>
-      <p>If you have a question, please fill out and submit the below form and we will get in contact with you. (Does not work currently)</p>
+      <p>If you have a question, please fill out and submit the below form and we will get in contact with you. </p>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div className = "col-6">
           <label htmlFor="name">Name:</label>
