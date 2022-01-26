@@ -41,6 +41,14 @@ code {
   padding-bottom: 60px;
 }
 
+.bold-text {
+  font-weight: bold;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
 /* background-color: rgba(27, 58, 77, 1); */
 
 

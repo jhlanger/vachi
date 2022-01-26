@@ -17,11 +17,9 @@ import Header2 from './components/Header2';
 import Chapter from './pages/Chapter';
 import HateMotivatedBehaviorPolicy from './pages/HateMotivatedBehaviorPolicy';
 import Letters from './pages/Letters';
-import MeetingNotice from './pages/MeetingNotice';
 import MembershipForm from './pages/MembershipForm';
 import NonDiscriminationPolicy from './pages/NonDiscriminationPolicy';
 import SexualHarrasmentPolicy from './pages/SexualHarrasmentPolicy';
-import Bylaws from './pages/Bylaws';
 import Sign from './pages/Sign';
 
 
@@ -43,11 +41,9 @@ function App() {
           <Route path='/forms' component={Forms} />
           <Route exact path="/merchandise" component={Merchandise} />
           <Route exact path="/contact" component={Contact} />
-          <Route exact path="/chapter" component={Chapter} />
-          <Route exact path="/bylaws" component={Bylaws} />
+          <Route exact path="/chapter" component={Chapter} /> 
           <Route exact path="/hatemotivatedbehaviorpolicy" component={HateMotivatedBehaviorPolicy} />
           <Route exact path="/letters" component={Letters} />
-          <Route exact path="/meetingnotice" component={MeetingNotice} />
           <Route exact path="/membershipform" component={MembershipForm} />
           <Route exact path="/nondiscriminationpolicy" component={NonDiscriminationPolicy} />
           <Route exact path="/sexualharrasmentpolicy" component={SexualHarrasmentPolicy} />
