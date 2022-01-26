@@ -7,8 +7,8 @@ const Header2 = () => {
 
             <div className="container">
                 <div className="d-flex flex-wrap ">
-                    <div className="col-lg-6 col-xs-12 text-center">
-                        <img src={vachiImg} className="" alt="vachiImg" style={{ width: "200px", height: "200px" }}></img>
+                    <div className="col-lg-6 col-xs-12 text-center display-block mx-auto">
+                        <img src={vachiImg} className="" alt="vachiImg" ></img>
                     </div>
                     <div className="col-lg-6 col-xs-12 text-center">
 
