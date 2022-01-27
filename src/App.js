@@ -21,6 +21,7 @@ import MembershipForm from './pages/MembershipForm';
 import NonDiscriminationPolicy from './pages/NonDiscriminationPolicy';
 import SexualHarrasmentPolicy from './pages/SexualHarrasmentPolicy';
 import Sign from './pages/Sign';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -50,7 +51,9 @@ function App() {
           <Route exact path="/sign" component={Sign} />
         </Switch>
         </div>
+        <Footer></Footer>
       </Router>
+
     </div>
   );
 }
