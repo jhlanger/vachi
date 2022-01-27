@@ -5,7 +5,7 @@ const PSAs = () => {
         <div className = "headerDiv bg-black text-center">
         <div className = "container">
             <div className = "pb-2">
-                <h1 className = "text-light">Resources </h1>
+                <h1 className = "text-warning">Resources </h1>
                 <ul>
                     <li className = "my-2 mx-auto list-group-item list-group-item-warning w-50"><a href="https://cops.usdoj.gov/ric/Publications/cops-p334-pub.pdf" target="_blank" rel="noreferrer">Preventing and Addressing Bullying and Intolerance: A guide for Law Enforcement</a></li>
                     <li className = "my-2 mx-auto list-group-item list-group-item-warning w-50"><a href="https://www.glsen.org/research/effectiveness-school-district-anti-bullying-policies" target="_blank" rel="noreferrer">Effectiveness of School District Anti-bullying Policies</a></li>

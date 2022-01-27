@@ -5,7 +5,7 @@ const BullyingWebsites = () => {
         <div className = "headerDiv bg-black text-center height-adjust-180">
             <div className = "container">
                 <div className = "pb-2">
-                    <h1 className = "text-light">Bullying Websites </h1>
+                    <h1 className = "text-warning">Bullying Websites </h1>
                     <ul>
                         <li className = "my-2 mx-auto list-group-item list-group-item-warning w-50"><a href="https://www.pacerkidsagainstbullying.org/?gclid=CL2Pp6bI1ZsCFRwDagodFj5uKA" target="_blank" rel="noreferrer">Pacer’s National Center for Bullying Prevention</a></li>
                         <li className = "my-2 mx-auto list-group-item list-group-item-warning w-50"><a href="https://www.stopbullying.gov/" target="_blank" rel="noreferrer">U.S. Department of Health and Human Services website</a></li>
