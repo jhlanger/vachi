@@ -44,9 +44,9 @@ function Contact() {
   };
 
   return (
-      <div className = "bg-black height-adjust-60">
+      <div className = "bg-black pb-3">
     <section className = "container text-light pt-3">
-      <h1 className = "font-weight-light" data-testid="h1tag ">Contact Us</h1>
+      <h1 className = "font-weight-light text-warning" data-testid="h1tag ">Contact Us</h1>
       <p>If you have a question, please fill out and submit the below form and we will get in contact with you. </p>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div className = "col-6">

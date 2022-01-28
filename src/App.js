@@ -22,6 +22,7 @@ import NonDiscriminationPolicy from './pages/NonDiscriminationPolicy';
 import SexualHarrasmentPolicy from './pages/SexualHarrasmentPolicy';
 import Sign from './pages/Sign';
 import Footer from './components/Footer';
+import About from "./components/About";
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
           <Route exact path="/nondiscriminationpolicy" component={NonDiscriminationPolicy} />
           <Route exact path="/sexualharrasmentpolicy" component={SexualHarrasmentPolicy} />
           <Route exact path="/sign" component={Sign} />
+          <Route exact path ="/about" component = {About} />
         </Switch>
         </div>
         <Footer></Footer>

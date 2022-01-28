@@ -31,7 +31,7 @@ code {
   padding-bottom: 30px;
 }
 .height-adjust-180 {
-  padding-bottom: 180px;
+  height: 40vh;
 }
 
 .height-adjust-375 {
@@ -49,6 +49,28 @@ code {
   font-style: italic;
 }
 
+
+
+.footerDiv ul {
+  list-style: none;
+}
+
+.footerDiv p {
+  margin-bottom: 0;
+  
+}
+
+.footerDiv h5 {
+  font-size: 16px;
+}
+.footerDiv a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footerDiv a:hover {
+  text-decoration: underline;
+}
 /* background-color: rgba(27, 58, 77, 1); */
 
 
